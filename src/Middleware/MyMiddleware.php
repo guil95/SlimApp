@@ -13,7 +13,7 @@ class MyMiddleware
         //$request->getAttribute('routeInfo')[2];
 
         //add sleep before controller
-        sleep(5);
+        //sleep(5);
 
         return $next($request, $response);
     }

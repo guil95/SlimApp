@@ -30,6 +30,9 @@ class HomeController
              */
             $service = $this->container->get(MyService::class);
 
+            //Use db
+            //$db = $this->container->get('db');
+
             return $response->withJson([
                 'data' => $service->sum(1,2)
             ], ResponseCode::HTTP_OK);

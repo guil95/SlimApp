@@ -8,11 +8,11 @@ $app = new \App\Application([
         'db' => [
             'driver'    => 'pdo_mysql',
             'charset'   => 'utf8',
-            'host'      => '127.0.0.1',
+            'host'      => 'db',
             'port'      =>  3306,
-            'dbname'    => 'db_name',
-            'user'      => 'user',
-            'password'  => 'password'
+            'dbname'    => 'baseslimapp',
+            'user'      => 'root',
+            'pass'      => 'root'
         ]
     ]
 ]);
